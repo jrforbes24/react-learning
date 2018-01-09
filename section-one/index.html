@@ -14,6 +14,22 @@
   <title>Let's React</title>
 </head>
 <body>
+  <!-- DESIGNATED LOCATION TO INSERT REACT CONTENT -->
+  <div id="app">React has not rendered yet.</div>
+
+  <!-- JAVASCRIPT -->
+  <script type="text/babel">
+
+  // RENDER REACT TO THE DOM - WILL ACCEPT TWO ARGUMENTS (react what, react where)
+    ReactDOM.render(
+      // REACT WHAT - JSX
+      <h1>Hello World</h1>,
+      // REACT WHERE - DIV WITH ID OF 'APP'
+      document.getElementById("app")
+    );
+
+  </script>
+
 
 </body>
 </html>
